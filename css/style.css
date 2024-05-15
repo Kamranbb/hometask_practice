@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+  
+}
+.navbarclass1{
+    height: 77px !important;
+}
+
+.navbarclass1 .button .buttonclass {
+    background-color: white !important;
+    color: black !important;
+    width: 100px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important; 
+    border-radius: 5px !important;
+}
+
+.navbarclass1 .button .buttonclass:hover {
+    background-color: #000000 !important;
+    color: white !important;
+}
+.header .section-main{
+    background-color: black !important;
+   height: 300px !important;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+    
+}
+.header .section-main .main1 .h4-1{
+    color: white !important;
+    font-size: 50px !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-align: center;
+}
+.header .section-main .main1 .h4-1 .span-1{
+    color: white !important;
+    font-size: 30px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+.main{
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.main .section-main{
+    display: flex !important;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.main .section-main .card1{
+    display: flex !important;
+    justify-content: center !important;
+    margin-left:50px !important ;
+    margin-top: 7px !important;
+}
+.main .section-main .card1 .card2 h6{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+   
+}
+.main .section-main .card1 .card2 h6:hover{
+    background-color: blue;
+}
+.main .section-main .card1 .card2 a{
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+.footer .section-footer{
+   margin-top: 50px;
+    background-color: black !important;
+    height: 120px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.footer .section-footer h4{
+    color: white !important;
+    font-size: 20px !important;
+    font-family: 'Poppins', sans-serif !important;
+    align-items:center ;
+    justify-content: center;
+    margin-top: 15px;
+}
